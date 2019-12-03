@@ -105,9 +105,18 @@ __*이탤릭볼드*__
 }
 ```
 
-```js
+```javascript
 function hello() {
-    return {};
+    var a = 1;
+    return a;
+}
+```
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
 }
 ```
 
@@ -129,7 +138,7 @@ function hello() {
 <!-- 인용문 -->
 
 > 여기에 인용문을 삽입하세요!  
-> 두번째 줄 인용문 삽입
+>두번째 줄 인용문 삽입
 
 > 첫번째 인용문!
 >> 두번째 인용문!
@@ -149,8 +158,13 @@ function hello() {
 <!-- 수평선과 줄바꿈 -->
 
 ---
+(Hyphens)
+
 ***
+(Asterisks)
+
 ___
+(Underscores)
 
 
 대한민국의 주권은 국민에게 있고,  
